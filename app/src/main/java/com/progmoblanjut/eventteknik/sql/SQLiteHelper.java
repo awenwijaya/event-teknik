@@ -77,4 +77,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         return true;
     }
 
+    public Integer deleteData(String id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete(TABEL_EVENT, KOLOM_ID + " =? ", new String[]{id});
+    }
+
 }
