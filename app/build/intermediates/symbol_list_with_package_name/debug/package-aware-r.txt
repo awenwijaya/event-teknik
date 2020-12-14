@@ -1527,6 +1527,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable addlogo
+drawable ask
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
@@ -1582,6 +1583,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable warning
 font montserrat
 font montserrat_bold
 id ALT
@@ -1589,11 +1591,13 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DeskripsiEdit
+id DeskripsiList
 id DeskripsiTambah
 id FABTambah
 id FUNCTION
 id META
 id NO_DEBUG
+id NamaAcaraList
 id NamaEventEdit
 id NamaEventTambah
 id SHIFT
@@ -1605,12 +1609,16 @@ id ScrollViewTambah
 id TOP_END
 id TOP_START
 id TanggalPelaksanaanEdit
+id TanggalPelaksanaanList
 id TanggalPelaksanaanTambah
 id TanggalRapatPerdanaEdit
+id TanggalRapatPerdanaList
 id TanggalRapatPerdanaTambah
 id TempatPelaksanaanEdit
+id TempatPelaksanaanList
 id TempatPelaksanaanTambah
 id TempatRapatPerdanaEdit
+id TempatRapatPerdanaList
 id TempatRapatPerdanaTambah
 id accelerate
 id accessibility_action_clickable_span
@@ -1799,6 +1807,7 @@ id line1
 id line3
 id linear
 id listMode
+id listViewEvent
 id list_item
 id masked
 id message
@@ -2062,6 +2071,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout list_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

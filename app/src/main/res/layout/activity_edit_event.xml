@@ -12,6 +12,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/back" />
@@ -19,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
         android:layout_toRightOf="@id/btnBackEdit"
         android:id="@+id/judul"
