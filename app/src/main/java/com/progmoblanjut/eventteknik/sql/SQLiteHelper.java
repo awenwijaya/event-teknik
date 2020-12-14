@@ -63,4 +63,18 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         return db.rawQuery("SELECT * FROM " + TABEL_EVENT, null);
     }
 
+    public boolean updateData(String id, String nama_event, String tanggal_pelaksanaan, String tanggal_rapat_perdana, String tempat_pelaksanaan, String tempat_rapat_perdana, String deskripsi) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(KOLOM_ID, id);
+        values.put(KOLOM_NAMA_EVENT, nama_event);
+        values.put(KOLOM_TANGGAL_PELAKSANAAN, tanggal_pelaksanaan);
+        values.put(KOLOM_TANGGAL_RAPAT_PERDANA, tanggal_rapat_perdana);
+        values.put(KOLOM_TEMPAT_PELAKSANAAN, tempat_pelaksanaan);
+        values.put(KOLOM_TEMPAT_RAPAT_PERDANA, tempat_rapat_perdana);
+        values.put(KOLOM_DESKRIPSI, deskripsi);
+        db.update(TABEL_EVENT, values, KOLOM_ID + " =? ", new String[]{id});
+        return true;
+    }
+
 }

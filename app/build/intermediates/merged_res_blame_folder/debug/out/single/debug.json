@@ -1,19 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ask.png.flat",
         "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\drawable-hdpi\\ask.png"
     },
     {
-        "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ask.png.flat",
         "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\drawable-mdpi\\ask.png"
+    },
+    {
+        "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\awenh\\Documents\\College Stuffs\\5th Semester MDI\\Pemrograman Mobile Lanjutan\\Program\\Coba\\3\\ui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ask.xml.flat",
