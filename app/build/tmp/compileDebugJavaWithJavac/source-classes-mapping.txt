@@ -2,6 +2,8 @@ com/progmoblanjut/eventteknik/BuildConfig.java
  com.progmoblanjut.eventteknik.BuildConfig
 com/progmoblanjut/eventteknik/sql/DataEventKepanitiaan.java
  com.progmoblanjut.eventteknik.sql.DataEventKepanitiaan
+com/progmoblanjut/eventteknik/sql/SQLiteHelper.java
+ com.progmoblanjut.eventteknik.sql.SQLiteHelper
 com/progmoblanjut/eventteknik/adapter/ListViewAdapter.java
  com.progmoblanjut.eventteknik.adapter.ListViewAdapter
  com.progmoblanjut.eventteknik.adapter.ListViewAdapter$1
@@ -12,8 +14,7 @@ com/progmoblanjut/eventteknik/EditEventActivity.java
  com.progmoblanjut.eventteknik.EditEventActivity$2
  com.progmoblanjut.eventteknik.EditEventActivity$2$1
  com.progmoblanjut.eventteknik.EditEventActivity$2$2
-com/progmoblanjut/eventteknik/sql/SQLiteHelper.java
- com.progmoblanjut.eventteknik.sql.SQLiteHelper
+ com.progmoblanjut.eventteknik.EditEventActivity$3
 com/progmoblanjut/eventteknik/TambahEventActivity.java
  com.progmoblanjut.eventteknik.TambahEventActivity
  com.progmoblanjut.eventteknik.TambahEventActivity$1
@@ -22,6 +23,7 @@ com/progmoblanjut/eventteknik/TambahEventActivity.java
  com.progmoblanjut.eventteknik.TambahEventActivity$2
  com.progmoblanjut.eventteknik.TambahEventActivity$2$1
  com.progmoblanjut.eventteknik.TambahEventActivity$2$2
+ com.progmoblanjut.eventteknik.TambahEventActivity$3
 com/progmoblanjut/eventteknik/MainActivity.java
  com.progmoblanjut.eventteknik.MainActivity
  com.progmoblanjut.eventteknik.MainActivity$1

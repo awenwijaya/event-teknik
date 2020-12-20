@@ -15,6 +15,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.progmoblanjut.eventteknik.sql.SQLiteHelper;
@@ -23,6 +24,7 @@ public class TambahEventActivity extends AppCompatActivity {
 
     private EditText namaEvent, tanggal, tanggalRapatPerdana, tempatRapatPerdana, tempatPelaksanaan, deskripsi;
     private Button tambah, batal;
+    private ImageButton kembali;
     SQLiteHelper helper;
 
     @Override
@@ -37,6 +39,7 @@ public class TambahEventActivity extends AppCompatActivity {
         deskripsi = findViewById(R.id.DeskripsiTambah);
         tambah = (Button) findViewById(R.id.btnSimpanTambah);
         batal = (Button) findViewById(R.id.btnBatalTambah);
+        kembali = (ImageButton) findViewById(R.id.btnBackTambah);
         helper = new SQLiteHelper(this);
 
         tambah.setOnClickListener(new View.OnClickListener() {
@@ -125,6 +128,14 @@ public class TambahEventActivity extends AppCompatActivity {
                         });
                 AlertDialog dialog = builder.create();
                 dialog.show();
+            }
+        });
+
+        kembali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kembali =  new Intent(TambahEventActivity.this, MainActivity.class);
+                startActivity(kembali);
             }
         });
 
